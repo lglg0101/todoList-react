@@ -1,40 +1,68 @@
 body {
     padding: 50px;
-    background-color: blue;
-    font-family: sans-serif;
-  }
-  #container {
+    background: url(https://images.unsplash.com/photo-1580122252338-6d72148aca2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+    font-family: Arial;
+}
+
+#container {
     display: flex;
     justify-content: center;
-  }
+}
 
-  .todoListMain {
-      background-color: red;
-      width: 40em;
-  }
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: darkslategray;
+    width: 70vw;
+}
 
-  .header {
-      background: chartreuse;
-      width: 20em;
-  }
+h1 {
+    font-family: monospace;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+}
 
-  form {
-      width: 40em;
-  }
+h2 {
+    font-family: monospace;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+}
 
-  input { 
-      background: yellow;
-      margin: 1em;
-      padding: 1em;
-      font-family: monospace; 
-  }
+.todoListMain {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background: blue; */
+}
 
-  button { 
-      font-family: monospace;
-      width: 8em;
-      color: blue;
-      background: pink;
-  }
+form {
+    justify-content: center;
+    width: 50vw;
+}
 
+input {
+    justify-content: center;
+    background: white;
+    margin: 1em;
+    padding: 1em;
+    font-family: monospace;
+}
 
+.theList {
+    font-family: monospace;
+    font-size: 1em;
+    color: white; 
+    text-transform: uppercase;
+}
 
+button {
+    font-family: monospace;
+    width: 8em;
+    color: white;
+    background: black;
+}

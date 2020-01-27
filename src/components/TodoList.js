@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 
 class TodoList extends Component {
 componentDidUpdate() {
-    this.props.inputElement.current.focus()
+    //sets the focus in the input area so 
+    // we can continue typing the next item in the todo list.
+    // this.props.inputElement.current.focus()
 }
 
     //create a reference to refer to the input 
@@ -11,8 +13,6 @@ componentDidUpdate() {
   render() {
     return (
       <div className="todoListMain">
-        <div className="header">
-
        {/* form on submit, calls add item  */}
           <form onSubmit={this.props.addItem}>
               
@@ -28,7 +28,7 @@ componentDidUpdate() {
             <button type="submit"> Add Task </button>
           </form>
         </div>
-      </div>
+    //   </div>
     )
   }
 }
