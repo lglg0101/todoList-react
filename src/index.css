@@ -1,13 +1,40 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    padding: 50px;
+    background-color: blue;
+    font-family: sans-serif;
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .todoListMain {
+      background-color: red;
+      width: 40em;
+  }
+
+  .header {
+      background: chartreuse;
+      width: 20em;
+  }
+
+  form {
+      width: 40em;
+  }
+
+  input { 
+      background: yellow;
+      margin: 1em;
+      padding: 1em;
+      font-family: monospace; 
+  }
+
+  button { 
+      font-family: monospace;
+      width: 8em;
+      color: blue;
+      background: pink;
+  }
+
+
+
